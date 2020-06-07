@@ -5,7 +5,7 @@ if (
   document.body.classList.add("dark");
 }
 
-function toggleDark() {
+window.toggleDark = function() {
   document.body.classList.toggle('dark');
   let darkToggle = document.getElementsByClassName('dark-toggle-i');
   if (darkToggle.classList.contains("fa-sun")) {
