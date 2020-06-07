@@ -1,1 +1,25 @@
 <!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+
+
+
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  {% if site.darkmode == false %}
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>
