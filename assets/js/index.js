@@ -11,9 +11,7 @@ function toggleDark() {
   if (darkToggle.classList.contains("fa-sun")) {
     darkToggle.classList.remove("fa-sun");
     darkToggle.classList.add("fa-moon");
-  }
-
-  if (darkToggle.classList.contains("fa-moon")) {
+  } else {
     darkToggle.classList.remove("fa-moon");
     darkToggle.classList.add("fa-sun");
   }
