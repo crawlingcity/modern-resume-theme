@@ -3,3 +3,14 @@
 ---
 
 @import 'modern-resume-theme';
+
+p, ul {
+  font-size: 1.6rem;
+  text-align: justify;
+  
+  @media (max-width: 767px) {
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 0;
+  }
+}
