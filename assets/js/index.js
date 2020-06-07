@@ -7,7 +7,7 @@ if (
 
 function toggleDark() {
   document.body.classList.toggle("dark");
-  let darkToggle = document.getElementsByClassName("dark-toggle-i");
+  const darkToggle = document.querySelector(".dark-toggle-i");
   if (darkToggle.classList.contains("fa-sun")) {
     darkToggle.classList.remove("fa-sun");
   } else {
