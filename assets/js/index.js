@@ -7,12 +7,12 @@ if (
 
 function toggleDark() {
   document.body.classList.toggle("dark");
-  const darkToggle = document.querySelector(".dark-toggle-i");
+  let darkToggle = document.querySelector(".dark-toggle-i");
   if (darkToggle.classList.contains("fa-sun")) {
     darkToggle.classList.remove("fa-sun");
     darkToggle.classList.add("fa-moon");
   } else {
-    darkToggle.classList.add("fa-moon");
-    darkToggle.classList.remove("fa-sun");
+    darkToggle.classList.remove("fa-moon");
+    darkToggle.classList.add("fa-sun");
   }
 };
