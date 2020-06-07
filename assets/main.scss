@@ -4,11 +4,10 @@
 
 @import 'modern-resume-theme';
 
-p, ul {
-  font-size: 1.6rem;
-  text-align: justify;
-  
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
+  p, ul {
+    font-size: 1.6rem;
+    text-align: justify;
     margin-left: 6%;
     margin-right: 6%;
     padding: 0;
