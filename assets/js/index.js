@@ -5,6 +5,7 @@ if (
   document.body.classList.add("dark");
 }
 
+
 function toggleDark() {
   document.body.classList.toggle("dark");
   const darkToggle = document.querySelector(".dark-toggle-i");
