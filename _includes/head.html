@@ -6,6 +6,6 @@
   <title>{{ site.name }} | {{ site.title }}</title>
   {%- seo title=false -%}
 
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" media="print" onload="this.media='all'; this.onload=null;">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
 </head>
